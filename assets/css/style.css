@@ -20,7 +20,9 @@ header h1 {
     font-size: 48px;
 }
 header h1 .seo {
-    color: #d9dcd6;
+    color: red;
+    display: inline-block;
+    transform: rotate(30deg);
 }
 
 header ul {
@@ -55,12 +57,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-.section-1::after{
-    content: " ";
-    display: block;
-    clear: both;
 
-}
 
 .float-left {
     float: left;
